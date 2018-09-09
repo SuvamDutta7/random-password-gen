@@ -1,0 +1,77 @@
+body{
+ margin: 0;
+ padding: 0;
+ background: -moz-linear-gradient(rgba(0,0,0,0.2))
+
+}
+
+
+
+.container{
+    
+    /* gradient starts here */
+
+    background: rgba(212,228,239,1);
+    background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 54%, rgba(142,180,208,1) 95%, rgba(134,174,204,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(54%, rgba(212,228,239,1)), color-stop(95%, rgba(142,180,208,1)), color-stop(100%, rgba(134,174,204,1)));
+    background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 54%, rgba(142,180,208,1) 95%, rgba(134,174,204,1) 100%);
+    background: -o-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 54%, rgba(142,180,208,1) 95%, rgba(134,174,204,1) 100%);
+    background: -ms-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 54%, rgba(142,180,208,1) 95%, rgba(134,174,204,1) 100%);
+    background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 54%, rgba(142,180,208,1) 95%, rgba(134,174,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+
+    /* gradient ends here */
+
+  /* box shadow starts here  */
+
+    -webkit-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+
+   /* box shadow ends here  */
+
+    width: 600px;
+    padding:30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3em;
+
+}
+
+.out{
+margin-bottom: 10px;
+width: 100%;
+
+
+
+}
+
+.myBtn{
+
+    padding: 20px 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+.pass{
+width: 300px;
+float: left;
+font-size: 30px;
+padding: 20px;
+background-color: #f63;
+margin-bottom: 20px; 
+}
+
+.in{
+margin: 0;
+padding: 5px 10px 5px 10px;
+float: right;
+text-align: center;
+background-color:#2ecc71;
+border: 1px solid #2ecc71;
+}
+
+
